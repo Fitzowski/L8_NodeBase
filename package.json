@@ -1,0 +1,22 @@
+{
+  "name": "lr8_nodebase",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 8 - Node.js Basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "set NODE_ENV=production&& node index.js",
+    "deploy": "set NODE_ENV=domain&& node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
